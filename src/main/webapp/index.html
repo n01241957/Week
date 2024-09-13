@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Request a Quote</title>
+</head>
+<body>
+    <h2>Request a Quote for Industrial Sockets</h2>
+    <form action="Sultana" method="POST">
+        <label for="socketType">Socket Type:</label>
+        <select id="socketType" name="socketType" required>
+            <option value="Type A">Type A</option>
+            <option value="Type B">Type B</option>
+            <option value="Type C">Type C</option>
+        </select><br><br>
+
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" name="quantity" required><br><br>
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <input type="submit" value="Request Quote">
+    </form>
+</body>
+</html>
